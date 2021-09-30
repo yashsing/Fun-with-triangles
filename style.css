@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Noto+Sans:wght@700&family=Open+Sans:wght@500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #9D174D
+  ;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+header {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 0 0 2rem 2rem ;
+}
+
+header h1 {
+  font-family: 'Open Sans', sans-serif;;
+  text-align: center;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > a {
+  padding: 0 0.5rem;
+}
+
+
+main {
+  margin: 0 0 7rem;
+}
+
+main h1 {
+  margin: 1rem;
+}
+
+
+.input-label {
+  font-size: larger;
+  color: var(--primary-color);
+  width: 256px;
+}
+
+.input-label p {
+  font-size: larger;
+  margin: 0.5rem;
+}
+
+.input-text {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+.btn-check {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+.output {
+  font-size: x-large;
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+  color: #fff;
+}
+
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
+}
+
+.footer-header {
+  background-color: var(--primary-colour);
+  color: var(--offwhite-colour);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.footer-header .social-links {  
+  margin: 1rem;
+}
+
+.handle-logo {
+  width: 2rem;
+  margin: 1rem;
+}
